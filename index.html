@@ -1,0 +1,33 @@
+<html>
+  <head>
+    <title>Animal Sounds Identification App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+
+  <body>
+    <div class="col-xs-12 header_div text-center">
+<h1>Animal Sounds Identification App</h1>
+<p>Note: Play different animal sounds like roaring, meowing, mooing and barking.</p>
+    </div>
+      <center>
+
+<br>
+<button class="btn btn-warning" onclick="startClassification()">START</button>
+<h3 id="result_label">I can hear- </h3>
+<h4 id="result_confidence">Acuracy- </h4>
+<br>
+<img id="animal_image" src="https://www.bioworld.com/ext/resources/Stock-images/Therapeutic-topics/ENT/ear-hearing-listen.png?1589216536" height="300" width="300">
+<br>
+
+      </center>
+    </div>
+  <div class="copy_right_footer">Developed by- Aashvi Mohanty</div>
+
+<script src="main.js"></script>
+  </body>
+</html>
